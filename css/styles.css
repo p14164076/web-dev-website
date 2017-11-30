@@ -1,0 +1,49 @@
+body  {
+	margin: 0;
+	padding:0;
+	background: #FFF;
+}
+
+header  {
+/*	background: #ccc;  */  
+	text-align: center;
+	background-image: url('../images/first_page_image.jpg');
+	
+}
+
+h1  {
+	font-size: 2.5em;
+	margin:0;
+	padding: 5em;
+	color:  #black;
+
+    letter-spacing: .1em;
+  }
+  
+nav {
+  background: #aaa;
+  display: none;
+}  
+
+nav a {
+  padding: 1em;
+  display: block;
+}  
+
+#menu {
+  padding: 1em;
+  background: #fff;
+  display: block;
+}
+
+.show-menu {
+  display: block;
+}
+ 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
