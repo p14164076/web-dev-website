@@ -1,10 +1,17 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+
 body  {
 	margin: 0;
 	padding:0;
 	background: #FFF;
+	overflow-x: hidden;
 }
 
+
+
 header  {
+	position: relative;
+	bottom: 50px;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/FrontCover.jpg);
 	background-attachment: fixed;
     background-size: cover;
@@ -16,8 +23,8 @@ header  {
 h1  {
 	position: relative;
     text-transform: uppercase;
-	top: 100px;
-	left: 400px;
+	top: 200px;
+	left: 300px;
     color: #ffffff;
     font-size: 400%;
     word-spacing: 4px;
@@ -26,8 +33,27 @@ h1  {
 
   }
   
+h2  {
+	position: relative;
+    text-transform: uppercase;
+	top: 200px;
+	left: 400px;
+    color: #fff;
+    font-size: 200%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+	font-weight: bold;
+
+  }
+
+#menu{
+	padding: 1em;
+	background: #fff;
+	display: inline-block;
+}
+  
 a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
