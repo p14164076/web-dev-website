@@ -1,8 +1,5 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 
-
-/* GLOBAL AND MOBILE STYLES FIRST */
-
 body {
   margin:0;
   padding:0;
@@ -13,7 +10,7 @@ body {
 
 header  {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/FrontCover.jpg);
-	background-attachment: fixed;
+	background-attachment: absolute;
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -64,46 +61,37 @@ h2  {
   position: relative;
   text-transform: uppercase;
   font-family: Snell Roundhand;
-  font-size: 120%;
   top: 200px;
   color: #ffffff;
   }
 
-
-@media screen and (min-width: 300px) {
-  nav {
-    background-color: #535863;
-    display: none;
-    list-style: none;
-  }
-
-  nav a {
-    display: block;
-    color:  #75aaff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Century Gothic;
-  }
+main {
+  display: block;
+  /* height cannot be auto or 100% */
+  height: 1000px;
+  /* overflow-y can also be scroll */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+section {
+  padding: 0 0.5em;
+} 
  
-}
 /* For Tablet size (medium size) */
-@media screen and (min-width: 650px) {
-  nav a {
-    width: 44%;
-    display: inline-block;
-  }
-  nav a:hover {
-    background: #777;
-  }
+@media screen and (min-width: 700px) {
 
+nav  {
+	display: block;
 }
 
+  #menu {
+    display: none;
+  }
 
 
 /*Second breakpoint desktop size (desktop size)*/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   
   h1 {
 	font-size: 400%;
@@ -117,16 +105,12 @@ h2  {
     display: block;
   }
   nav a {
+    display: inline-block;
     line-height: 3em;
     width: 13%;
   }
   #menu {
     display: none;
-  }
-
- 
-  .teams {
-    width: 25%;
   }
 
 }
