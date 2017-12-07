@@ -38,6 +38,7 @@ header  {
     padding: 14px 16px;
     text-decoration: none;
     font-family: Century Gothic;
+	
   }
 .show-menu {
   display: block;
@@ -47,6 +48,7 @@ header  {
 a {
   color: #75aaff;
   text-decoration: none;
+  font-size: 140%;
 }
 
 h1 {
@@ -73,25 +75,27 @@ main {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
-section {
-  padding: 0 0.5em;
-} 
+
  
 /* For Tablet size (medium size) */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
 
 nav  {
 	display: block;
 }
 
+
   #menu {
     display: none;
   }
 
+  a  {
+	font-size: 120%;
+  }
 
 /*Second breakpoint desktop size (desktop size)*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1500px) {
   
   h1 {
 	font-size: 400%;
