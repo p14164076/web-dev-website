@@ -89,11 +89,51 @@ main {
 .gallery  {
 	display: block;
     margin: auto;
-    width: 60%;
-
+    width: 85%;
 }
 
-/* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
+.gallery-item  {
+	padding: 10px;
+}
+
+
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 15px;
+	right: 0;
+	bottom: 30px;
+	width: 400px;
+	height: 250px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 50px;
+	font-family: impact;
+	display: inline-block;
+	position: relative;
+	top: 40%;
+	left: 0%;
+
+}
 
 @media only screen and (max-width: 1024px) {
   .text-wrapper {
@@ -127,14 +167,9 @@ nav  {
   }
 
 .gallery  {
-	    width: 80%;
+	    width: 85%;
 }
 
-.img__wrap {
-  position: relative;
-  height: 200px;
-  width: 257px;
-}
 
 /*Second breakpoint desktop size (desktop size)*/
 
@@ -161,7 +196,7 @@ nav  {
   }
 
   .gallery  {
-	    width: 81%;
+	    width: 85%;
 }
   
 }
