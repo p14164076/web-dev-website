@@ -74,8 +74,9 @@ h2  {
 h3  {
 	text-transform: uppercase;
 	font-family: impact;
-	font-size: 40px;
+	font-size: 50px;
 	padding: 10px;
+	color: #2377ff;
 }
   
 main {
@@ -86,11 +87,11 @@ main {
 }
 
 .gallery  {
-	image-align: center;
-	}
-	
+	display: block;
+    margin: auto;
+    width: 60%;
 
-
+}
 
 /* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
 
@@ -125,6 +126,16 @@ nav  {
 	font-size: 120%;
   }
 
+.gallery  {
+	    width: 80%;
+}
+
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
 /*Second breakpoint desktop size (desktop size)*/
 
 @media screen and (min-width: 1500px) {
@@ -149,4 +160,8 @@ nav  {
     display: none;
   }
 
+  .gallery  {
+	    width: 81%;
+}
+  
 }
