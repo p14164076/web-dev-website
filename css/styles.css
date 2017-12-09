@@ -6,17 +6,20 @@ body {
   background: #FFF;
   text-align: center;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  flex-flow: row wrap; 
 }
 
 header  {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/FrontCover.jpg);
-	background-attachment: absolute;
+	background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 70vh;
 	position: relative;
-	bottom: 22px;
+	bottom: 25px;
 }
+
 
 #menu{
   padding: 1em;
@@ -29,6 +32,7 @@ header  {
     background-color: #535863;
     display: none;
     list-style: none;
+	
   }
 
   nav a {
@@ -72,11 +76,34 @@ main {
   /* height cannot be auto or 100% */
   height: 1000px;
   /* overflow-y can also be scroll */
-  overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 
- 
+#flex  {
+	  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+
+#flex div  {
+	  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+  
+}
+
+#flex div img { 
+  width: 100%; 
+  height: auto; 
+}
+
 /* For Tablet size (medium size) */
 @media screen and (min-width: 1000px) {
 
@@ -93,6 +120,8 @@ nav  {
 	font-size: 120%;
   }
 
+   #flex div { margin: 0; }
+  #flex { padding: 0; }
 /*Second breakpoint desktop size (desktop size)*/
 
 @media screen and (min-width: 1500px) {
