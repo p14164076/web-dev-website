@@ -132,6 +132,7 @@ main {
 	position: relative;
 	top: 40%;
 	left: 0%;
+	user-select: none;
 
 }
 
