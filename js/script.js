@@ -37,9 +37,13 @@ function initScroll(elementId){
 		clearTimeout(scroller);
 	}	
 
-	window.scroll(0, marginY);
+	window.scroll(1, marginY);
 
 	//console.log(destination);
+}
+
+function clickAlert() {
+    alert("Thank you \n Your form has been submitted");
 }
 
 
