@@ -78,7 +78,11 @@ h3  {
 	padding: 10px;
 	color: #2377ff;
 }
-  
+
+h4  {
+	font-family: georgia;
+	
+}
 main {
   display: block;
   /* height cannot be auto or 100% */
@@ -192,6 +196,34 @@ fieldset  {
     margin-bottom: 1em;
   }
 }
+
+#page-3 {
+width: 100%;
+    height: 60%;
+	display: block;
+
+}
+
+.fleft {
+    float:left; 
+		overflow: auto;
+    width: 40%;
+    height: 100%;
+	font-family: Perpetua;
+	margin-left: 5%;
+
+}
+
+.fright {
+float: right;
+    background:pink;
+    height: 400px;
+    width: 40%;
+	margin-right: 2cm;
+	
+}
+
+
 
 /* For Tablet size (medium size) */
 @media screen and (min-width: 1000px) {
