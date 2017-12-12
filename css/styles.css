@@ -6,9 +6,8 @@ body {
   background: #FFF;
   text-align: center;
   overflow-x: hidden;
-  scroll-behavior: smooth;
   
-}
+  }
 
 header  {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/FrontCover.jpg);
@@ -18,42 +17,14 @@ header  {
 	position: relative;
 	bottom: 25px;
 	height: 35em;
-}
-
-
-#menu{
-  padding: 1em;
-  background: #fff;
-  display: block;
-  background-color: #535863;
-  
-}
-  nav {
-    background-color: #535863;
-    display: none;
-    list-style: none;
-	
   }
 
-  nav a {
-    display: block;
-    color:  #75aaff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Century Gothic;
-	
-  }
-.show-menu {
-  display: block;
-  
-}
 
 a {
   color: #75aaff;
   text-decoration: none;
   font-size: 140%;
-}
+  }
 
 h1 {
   position: relative;
@@ -61,7 +32,7 @@ h1 {
   font-family: Luminari;
   top: 200px;
   color: #ffffff;
-}
+  }
 
 h2  {
   position: relative;
@@ -75,14 +46,44 @@ h3  {
 	text-transform: uppercase;
 	font-family: impact;
 	font-size: 50px;
-	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 	color: #2377ff;
-}
+  }
 
 h4  {
 	font-family: georgia;
-	
+  }
+
+/* Menu */
+#menu{
+  padding: 1em;
+  background: #fff;
+  display: block;
+  background-color: #535863;
+  
 }
+nav {
+    background-color: #535863;
+    display: none;
+    list-style: none;
+	
+  }
+
+nav a {
+    display: block;
+    color:  #75aaff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Century Gothic;
+	
+  }
+.show-menu {
+  display: block;
+  
+}
+
 main {
   display: block;
   /* height cannot be auto or 100% */
@@ -90,6 +91,7 @@ main {
   /* overflow-y can also be scroll */
 }
 
+/*gallery */
 .gallery  {
 	display: block;
     margin: auto;
@@ -186,7 +188,18 @@ fieldset  {
 
 }
 
-@media only screen and (max-width: 1024px) {
+.addrlft  {
+	float: left;
+	font-size: 14px;
+	font-family: Courier New;
+}
+
+.addrrig  {
+	float: right;
+	font-size: 14px;
+	font-family: Courier New;
+}
+
   .text-wrapper {
     opacity: 1;
     justify-content: flex-end;
@@ -195,34 +208,36 @@ fieldset  {
   .title {
     margin-bottom: 1em;
   }
-}
+
 
 #page-3 {
 width: 100%;
-    height: 60%;
+    height: 70%;
 	display: block;
-
 }
 
 .fleft {
     float:left; 
-		overflow: auto;
+	overflow: auto;
     width: 40%;
     height: 100%;
 	font-family: Perpetua;
-	margin-left: 5%;
+	margin-left: 4%;
+	
 
 }
 
 .fright {
-float: right;
-    background:pink;
+	float: right;
     height: 400px;
     width: 40%;
-	margin-right: 2cm;
-	
+	margin-right: 4%;	
 }
 
+#map {
+  height: 300px;
+  width: 100%;
+}
 
 
 /* For Tablet size (medium size) */
@@ -249,7 +264,20 @@ nav  {
 	    width: 85%;
 }
 
+.fleft {
+    font-size: 18px;
 
+}
+.addrlft  {
+	float: left;
+	font-size: 18px;
+}
+
+.addrrig  {
+	float: right;
+	font-size: 18px;
+}
+	
 /*Second breakpoint desktop size (desktop size)*/
 
 @media screen and (min-width: 1500px) {
@@ -284,5 +312,20 @@ nav  {
     background: #fff;
     vertical-align: middle;
 	}
-		
+	
+	.fleft {
+    font-size: 20px;
+
+}
+
+.addrlft  {
+	float: left;
+	font-size: 21px;
+}
+
+.addrrig  {
+	float: right;
+	font-size: 21px;
+}	
+	
 }
