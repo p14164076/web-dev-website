@@ -11,8 +11,7 @@
     <nav id="nav-menu">
       <a href="#home">Home</a> <a href="#services">Services</a> <a href="#about">About Us</a> <a href="#contact">Contact Us</a>
     </nav>
-    <script src="js/script.js">
-    </script>
+    
     <main>
       <section id="home">
         <header>
@@ -186,7 +185,7 @@
                 <label class="radiopos" for="contactChoice1">Sole Trader</label> <input checked id="contactChoice1" name="radio" type="radio" value="soleTrader"> <label class="radiopos" for="contactChoice2">Limited Company</label> <input id="contactChoice2" name="radio" type="radio" value="limitedCompany"> <label class="radiopos" for="contactChoice3">Partnership</label> <input id="contactChoice3" name="radio" type="radio" value="partnerShip">
               </div><label class="formheader" for="busname">Business Name:</label> <input id="busname" name="busname" placeholder="Business Name" type="text"> <label class="formheader" for="busemail">Business Email:</label> <input id="busemail" name="busname" placeholder="Business Email" type="text"> <label class="formheader" for="subject">Reason Of Contact:</label> 
               <textarea id="subject" name="subject" placeholder="Reason Of Contact" style="height:200px"></textarea>
-            </fieldset><input onclick="clickAlert()" type="button" value="Submit">
+            </fieldset><br><input type="button" value="Submit" id="alerting"/>
           </form>
         </div>
       </section>
@@ -204,5 +203,7 @@
 		</div>
 	  </section>
     </main>
+	<script src="js/script.js">
+    </script>
   </body>
 </html>

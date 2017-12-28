@@ -13,10 +13,17 @@
 	    }
 	  }
 	})();
-
+	
+	
+	let btn = document.getElementById("alerting");
+	btn.addEventListener("click", clickAlert);
+	
 	function clickAlert() {
-	  alert("Thank you \n Your form has been submitted");
+	alert("Thank you \n Your form has been submitted");
 	}
+	
+
+
 
 	function initMap() {
 	  let leicester = {
