@@ -47,7 +47,7 @@ h1 {
 h2 {
   position: relative;
   text-transform: uppercase;
-  font-family: Snell Roundhand;
+  font-family: 'Snell Roundhand';
   top: 200px;
   color: #ffffff;
 }
@@ -89,7 +89,7 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: Century Gothic;
+  font-family: 'Century Gothic';
   font-size: 140%;
 }
 
@@ -179,7 +179,6 @@ main {
   position: relative;
   top: 40%;
   left: 0%;
-  user-select: none;
 }
 
 /* About Us Page */
@@ -187,14 +186,14 @@ main {
 .addrlft {
   float: left;
   font-size: 14px;
-  font-family: Gill Sans;
+  font-family: 'Gill Sans';
 }
 
 /* Floating right the contact information */
 .addrrig {
   float: right;
   font-size: 14px;
-  font-family: Gill Sans;
+  font-family: 'Gill Sans';
 }
 
 /* Organising About Us Page */
