@@ -1,3 +1,5 @@
+	
+	/*Script to show or hide the menu on the navigation*/
 	(function() {
 	  let menuButton = document.getElementById("menu");
 	  let navMenu = document.getElementById("nav-menu");
@@ -15,16 +17,18 @@
 	})();
 	
 	
+	/*Form Submission button*/{
 	let btn = document.getElementById("alerting");
 	btn.addEventListener("click", clickAlert);
 	
 	function clickAlert() {
 	alert("Thank you \n Your form has been submitted");
 	}
+	}
 	
 
 
-
+  /*Google Map API*/
 	function initMap() {
 	  let leicester = {
 	    lat: 52.631236,

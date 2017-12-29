@@ -1,9 +1,20 @@
-/* GLOBAL AND MOBILE STYLES FIRST */
 
+
+/* ------------------------------------- */
+
+
+/* 		 GLOBAL AND MOBILE STYLES FIRST	 */
+
+
+/* ------------------------------------- */
+
+
+/*Smooth scroll on the whole page.*/
 html {
   scroll-behavior: smooth;
 }
 
+/* Basic setup for the page*/
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +22,8 @@ body {
   text-align: center;
   overflow-x: hidden;
 }
+
+/* Header contains the image for the front cover and the sizing for it*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/FrontCover.jpg);
   background-attachment: fixed;
@@ -22,6 +35,8 @@ header {
   z-index: 2;
 }
 
+/* Fonts */
+/* Setting the headers attributes*/
 h1 {
   position: relative;
   text-transform: uppercase;
@@ -47,8 +62,9 @@ h3 {
 h4 {
   font-family: georgia;
 }
-/* Menu */
 
+/* Menu */
+/* Menu attributes */
 #menu {
   padding: 1em;
   background: #fff;
@@ -58,11 +74,15 @@ h4 {
   text-decoration: none;
   font-size: 140%;
 }
+
+/* nav attributes hiding list under the menu  */
 nav {
   background-color: #535863;
   display: none;
   list-style: none;
 }
+
+/* Editing nav and a attributes */
 nav a {
   display: block;
   color: #75aaff;
@@ -72,24 +92,33 @@ nav a {
   font-family: Century Gothic;
   font-size: 140%;
 }
+
+/* Shows the navigation under the menu when menu is clicked on  */
 .show-menu {
   display: block;
 }
+
+/* Organising the page design so it does not clash  */
 main {
   display: block;
   height: 1135px;
 }
+
+/* Creating space around the navigation to the top and giving a background  */
 #top  {
   background-color: #535863;
   padding:2%;
 }
 
 /*Site-map*/
+/* Removing the sitemap list and giving it a background and space around it */
 #sitemenu ul{
   list-style: none;
   background-color: #535863;
   padding:2%;
 }
+
+/* Placing the sitemap in a horizontal list  */
 #sitemenu li{
   display: block;
   padding: 8px;
@@ -97,23 +126,31 @@ main {
 }
 
 /*gallery */
-
+/* specifying the gallery size  */
 .gallery {
   display: block;
   margin: auto;
   width: 85%;
 }
+
+/* Spacing the items in the gallery  */
 .gallery-item {
   padding: 10px;
 }
+
+/* Border for the hover of the image */
 .hvrbox * {
   box-sizing: border-box;
 }
+
+/* Showing the hover */
 .hvrbox {
   position: relative;
   display: inline-block;
   overflow: hidden;
 }
+
+/* Attributes of the hover */
 .hvrbox .hvrbox-layer_top {
   opacity: 0;
   position: absolute;
@@ -127,9 +164,13 @@ main {
   color: #fff;
   transition: all 0.4s ease-in-out 0s;
 }
+
+/* How dark to make the hover box*/
 .hvrbox:hover .hvrbox-layer_top, .hvrbox.active .hvrbox-layer_top {
   opacity: 1;
 }
+
+/* font attribute */
 .hvrbox .hvrbox-text {
   text-align: center;
   font-size: 50px;
@@ -140,16 +181,66 @@ main {
   left: 0%;
   user-select: none;
 }
-/*Form*/
 
+/* About Us Page */
+/* Floating left the address */
+.addrlft {
+  float: left;
+  font-size: 14px;
+  font-family: Gill Sans;
+}
+
+/* Floating right the contact information */
+.addrrig {
+  float: right;
+  font-size: 14px;
+  font-family: Gill Sans;
+}
+
+/* Organising About Us Page */
+#about {
+  width: 100%;
+  height: 60%;
+  display: block;
+}
+
+/* Floating the about Us Information to the left */
+.fleft {
+  float: left;
+  overflow: auto;
+  width: 40%;
+  height: 100%;
+  font-family: Perpetua;
+  margin-left: 4%;
+}
+
+/* Floating right Google Map */
+.fright {
+  float: right;
+  height: 400px;
+  width: 40%;
+  margin-right: 4%;
+}
+
+/* Specifying map size */
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+/*Form*/
+/* Form sections */
 legend {
   font-weight: bold;
   padding: 10px;
 }
+
+/* label above the text box */
 label {
   display: block;
 }
 
+/* Input boxes attributes */
 input[type=text], select, textarea {
   width: 80%;
   padding: 12px;
@@ -161,6 +252,7 @@ input[type=text], select, textarea {
   resize: both;
 }
 
+/* Giving the form colour and controlling size */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -168,144 +260,153 @@ input[type=text], select, textarea {
   width: 70%;
   margin: 0 auto;
 }
+
+/* Sizing form */
 fieldset {
   width: 80%;
   margin: 0 auto;
 }
+
+/* Spacing between labels on form */
 .formheader {
   margin: 2em auto 1em;
 }
-.addrlft {
-  float: left;
-  font-size: 14px;
-  font-family: Gill Sans;
-}
-.addrrig {
-  float: right;
-  font-size: 14px;
-  font-family: Gill Sans;
-}
-.text-wrapper {
-  opacity: 1;
-  justify-content: flex-end;
-  text-shadow: 1px 1px 1px #000;
-}
-.title {
-  margin-bottom: 1em;
-}
-#about {
-  width: 100%;
-  height: 60%;
-  display: block;
-}
-.fleft {
-  float: left;
-  overflow: auto;
-  width: 40%;
-  height: 100%;
-  font-family: Perpetua;
-  margin-left: 4%;
-}
-.fright {
-  float: right;
-  height: 400px;
-  width: 40%;
-  margin-right: 4%;
-}
-#map {
-  height: 300px;
-  width: 100%;
-}
-.scroller {
-  position: relative;
-  flex: 1;
-  overflow: scroll;
-}
 
 
+/* ------------------------------------- */
 
-/* For Tablet size (medium size) */
+
+/* 		     Tablet Size				 */
+
+
+/* ------------------------------------- */
+
 
 @media screen and (min-width: 1000px) {
+	
+  /* Changing front image size */
   header {
     height: 70vh;
   }
-  /*Menu*/
+  
+  /* Menu */
+  /* Changing the navigation view to list not hidden */
   nav {
     display: block;
   }
+  
+  /* Disabling menu */
   #menu {
     display: none;
   }
+  
+  /* Changing size of back to the top navigation */
   #top  {
 	font-size: 22px;
   }
-  /*Site-map*/
-
+  
+  /* Site-map */
+  /* Sitemap size changing */
   #sitemenu li{
     font-size: 22px;
  }
- /*gallery*/
+ 
+ 
+ /* Changing gallery size */
   .gallery {
     width: 85%;
   }
+  
+  /* Changing font size of the about us information */
   .fleft {
     font-size: 18px;
   }
+  
+  /* Changing font size of the address */
   .addrlft {
-    float: left;
-    font-size: 18px;
-  }
-  .addrrig {
-    float: right;
     font-size: 18px;
   }
   
-/*Second breakpoint desktop size (desktop size)*/
+  /* Changing font size of the contact information */
+  .addrrig {
+    font-size: 18px;
+  }
+  
+  
+  
+/* ------------------------------------- */
+
+
+/* 		     Desktop Size				 */
+
+
+/* ------------------------------------- */
+
+
 
 @media screen and (min-width: 1500px) {
+  
+  /* Changing header sizes */
   h1 {
     font-size: 400%;
   }
+  
   h2 {
     font-size: 150%;
   }
+  
+  /* Changing the Navigation to a horizontal Navigation */
   nav {
     display: block;
   }
+  
+  /* Spreading the navigation and size */
   nav a {
     display: inline-block;
     line-height: 3em;
     width: 13%;
   }
+  
+  /* Removing menu */
   #menu {
     display: none;
   }
-    #top  {
+  
+  /* Changing the font size of back to the top */
+  #top  {
 	font-size: 25px;
   }
+  
   /*Site-map*/
+  /* Changing siteman to horizontal list */  
   #sitemenu li{
 	display: inline;
  }
+  /* Changing the size of the gallery */   
   .gallery {
     width: 85%;
   }
+  
+  /* Repositioning the radio buttons */  
   .radiopos {
     display: inline;
     margin-left: 30px;
     background: #fff;
     vertical-align: middle;
   }
+  
+  /* Changing about us information font size */
   .fleft {
     font-size: 20px;
   }
+
+  /* Change address size   */  
   .addrlft {
-    float: left;
     font-size: 21px;
   }
+  
+  /* Change contact information size   */  
   .addrrig {
-    float: right;
     font-size: 21px;
   }
 }
