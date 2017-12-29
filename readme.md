@@ -11,7 +11,7 @@ The business has been running for over 6 months now, the business has a few clie
 ## Designs
 Designs were made for three different views: Mobile, Tablet and Desktop. The designs are what the end user should be able to see on the website.
 
-##Features
+## Features
 1. Single Page Application(SPA) - The site is an SPA which allows the user to browse through the web application without changing page and having to wait for the page to load whilst changing page.
 
 2. The Navigation Bar - This is positioned at the top of the page and it has three different types. The desktop version of the navigation is horizontal and has tabs on top of the page. The tablet version has them in a vertical line showing all the navigation options. The emobile version has the navigation options hidden and only gets shown once the menu is pressed.
@@ -26,7 +26,7 @@ Designs were made for three different views: Mobile, Tablet and Desktop. The des
 
 7. Sitemap - The sitemap is another navigation tool and there is a "Back to the top" button which goes to the top.
 
-##Testing
+## Testing
 
 1. Is Smooth Scroll Working properly?
 	Yes
@@ -39,17 +39,17 @@ Designs were made for three different views: Mobile, Tablet and Desktop. The des
 5. Is the website responsive on a mobile and a tablet?
 	Yes
 
-##P.A.R.C Principles of Visual Design
+## P.A.R.C Principles of Visual Design
 
 1. Proximity - Related items should be grouped together, this keeps the items organised.
 2. Alignment - Every visual element on the page should have a connection to at least one other element, this makes the content flow well.
 3. Repetition - Common elements such as colours, graphics and layout styles should be similar, this keeps the website and layout consistant.
 4. Contrast - Separating elements which are not similar, this separates different elements.
 
-##Conclusion
+## Conclusion
 In conclusion I believe majority of what has been covered in Front End Web Development has become very clear to me. The fundamentals have allowed me to learn and enhance my web development knowledge and skills. Overall during this module I have learnt about the three languages: HTML, CSS and JavaScript and I have learnt how they can be combined to create well functioning websites.
 
-##References
+## References
 ##### Tools used:
 Haroopad - Used to create the README file
 Pencil - Used to create the sketches for the website
@@ -62,7 +62,7 @@ Blackboard- Majority of the code was learnt and used from the help uploaded to b
 Dave Everitt - Provided help on how where to look for code to adapt and use.
 Fania Raczinski - Provided help on how to use github.
 
-######Websites used:
+###### Websites used:
 Smooth Scroll - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
 Navigation - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
 Background Image - https://www.w3schools.com/cssref/pr_background-image.asp
