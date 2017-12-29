@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/FrontCover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/FrontCover.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
