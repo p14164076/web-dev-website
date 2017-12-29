@@ -51,24 +51,24 @@ In conclusion I believe majority of what has been covered in Front End Web Devel
 
 ## References
 ##### Tools used:
-Haroopad - Used to create the README file
-Pencil - Used to create the sketches for the website
-Notepad++ - Text editor used for writing the code
-Github - Version control used for saving the website and uploading constant changes that can be seen by the marker.
-Chrome/ Firefox /Internet Explorer- Used to test the code
+1. Haroopad - Used to create the README file
+2. Pencil - Used to create the sketches for the website
+3. Notepad++ - Text editor used for writing the code
+4. Github - Version control used for saving the website and uploading constant changes that can be seen by the marker.
+5. Chrome/ Firefox /Internet Explorer- Used to test the code
 
 ##### Help Aquired from:
-Blackboard- Majority of the code was learnt and used from the help uploaded to blackboard by Dave Everitt & Fania Raczinski.
-Dave Everitt - Provided help on how where to look for code to adapt and use.
-Fania Raczinski - Provided help on how to use github.
+1. Blackboard- Majority of the code was learnt and used from the help uploaded to blackboard by Dave Everitt & Fania Raczinski.
+2. Dave Everitt - Provided help on how where to look for code to adapt and use.
+3. Fania Raczinski - Provided help on how to use github.
 
 ###### Websites used:
-Smooth Scroll - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
-Navigation - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
-Background Image - https://www.w3schools.com/cssref/pr_background-image.asp
-Menu - https://www.w3schools.com/howto/howto_js_dropdown.asp
-Alert Pop-Up - https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert
-OnClick to EventListener - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-CSS Flexbox - https://stackoverflow.com/questions/42368107/responsive-image-gallery-using-css-flexbox-or-grid-layout
-Contact Form - https://www.w3schools.com/howto/howto_css_contact_form.asp
+1. Smooth Scroll - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
+2. Navigation - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
+3. Background Image - https://www.w3schools.com/cssref/pr_background-image.asp
+4. Menu - https://www.w3schools.com/howto/howto_js_dropdown.asp
+5. Alert Pop-Up - https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert
+6. OnClick to EventListener - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+7. CSS Flexbox - https://stackoverflow.com/questions/42368107/responsive-image-gallery-using-css-flexbox-or-grid-layout
+8. Contact Form - https://www.w3schools.com/howto/howto_css_contact_form.asp
 
